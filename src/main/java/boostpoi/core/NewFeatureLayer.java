@@ -8,6 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.File;
 import java.io.FileOutputStream;
 
 /**
@@ -63,7 +64,9 @@ public class NewFeatureLayer<T extends NewFeatureLayer> extends ControlCellLayer
             }
         }
         try {
-            FileOutputStream fileOut = new FileOutputStream(outputPath);
+            File file = new File(outputPath);
+            file.createNewFile();
+            FileOutputStream fileOut = new FileOutputStream(file);
             // 把相应的 Excel 工作簿存盘
             super.getWorkbook().write(fileOut);
             fileOut.flush();

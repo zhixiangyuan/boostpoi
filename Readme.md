@@ -14,4 +14,6 @@
 
 # 快速开始
 
-参考 example 包下的 demo
+参考 example 包下的 demo，下图为该 demo 生成的效果
+
+![](http://zhixiangyuan.github.io/hub/2020/February/7.png)

@@ -8,7 +8,8 @@ rebel.xml
 .DS_Store
 /**/.DS_Store
 
-
+.idea/
+target/
 ### Nodejs ###
 node_modules/
 /**/node_modules/

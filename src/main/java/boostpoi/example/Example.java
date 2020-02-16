@@ -16,7 +16,7 @@ public class Example {
         example.example_1();
     }
 
-    private final static String OUT_PUT_PATH = "/Users/jingsmith/WorkSpace/personal_project/boostpoi/src/main/java/boostpoi/example/Sample-1.xlsx";
+    private final static String OUT_PUT_PATH = "/Users/zhixiangyuan/workspace/tmp/boostpoi/src/main/java/boostpoi/example/Sample-2.xlsx";
 
     /**
      * 第一个使用示例，先看文件，再看代码
